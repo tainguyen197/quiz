@@ -1,0 +1,44 @@
+{
+  "topic": "Javascript",
+  "level": "Beginner",
+  "totalQuestions": 4,
+  "perQuestionScore": 5,
+  "questions": [
+    {
+      "question": "Phần của đường bộ được sử dụng cho các phương tiện giao thông qua lại  là gì?",
+      "choices": [
+        "Phần mặt đường và lề đường.",
+        "Phần đường xe chạy.",
+        "Phần đường xe cơ giới."
+      ],
+      "type": "MCQs",
+      "correctAnswer": "stringify()"
+    },
+    {
+      "question": "“Làn đường” là gì?",
+      "choices": [
+        "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, sử dụng cho xe chạy.",
+        "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn.",
+        "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ bề rộng cho xe ô tô chạy an toàn."
+      ],
+      "type": "MCQs",
+      "correctAnswer": "var and let"
+    },
+    {
+      "question": "Khái niệm “Khổ giới hạn đường bộ” được hiểu như thế nào là đúng?",
+      "choices": [
+        "Là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.",
+        "Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.",
+        "Là khoảng trống có kích thước giới hạn về chiều cao của cầu, bến phà, hầm trên đường bộ để các xe đi qua được an toàn."
+      ],
+      "type": "MCQs",
+      "correctAnswer": "All of the above"
+    },
+    {
+      "question": "How can a datatype be declared to be a constant type?",
+      "choices": ["const", "var", "let", "constant"],
+      "type": "MCQs",
+      "correctAnswer": "const"
+    }
+  ]
+}
