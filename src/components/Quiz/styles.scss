@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap");
+$mobile-screen: 480px;
+$table-screen: 720px;
+
+body {
+  font-family: "Anek Malayalam", sans-serif;
+  color: #11052c;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 30px;
+  background: #49494b;
+
+  @media only screen and (max-width: $mobile-screen) {
+    margin-top: 0px;
+    padding: 0;
+  }
+}
+
+.quiz-container {
+  max-width: 500px;
+  min-width: 250px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 100px;
+  padding: 30px 60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  .active-question-no {
+    font-size: 32px;
+    font-weight: 500;
+    color: #62cdff;
+  }
+
+  .total-question {
+    font-size: 16px;
+    font-weight: 500;
+    color: #e0dee3;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  ul {
+    margin-top: 20px;
+    margin-left: -40px;
+
+    li {
+      text-decoration: none;
+      list-style: none;
+      color: #2d264b;
+      font-size: 16px;
+      background: #ffffff;
+      border: 1px solid #eaeaea;
+      border-radius: 16px;
+      padding: 11px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    .selected-answer {
+      background: #97deff;
+      border: 1px solid #62cdff;
+    }
+  }
+
+  button {
+    background: #33ace4;
+    border-radius: 9px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 42px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+
+  .quiz-container {
+    button:disabled {
+      background: #e7e8e9;
+      color: #9fa3a9;
+      cursor: not-allowed;
+    }
+  }
+
+  @media only screen and (max-width: $mobile-screen) {
+    margin-top: 0px;
+    padding: 30px 20px;
+    min-height: 100vh;
+
+    h2 {
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    ul {
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.flex-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.result {
+  h3 {
+    font-size: 24px;
+    letter-spacing: 1.4px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .result {
+    p {
+      span {
+        color: #800080;
+        font-size: 22px;
+      }
+    }
+  }
+}
